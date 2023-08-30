@@ -22,8 +22,8 @@ public class HorseAlgorithm {
 
 
     public static void main(String[] args) throws IOException {
-        String problemPath = "source\\berlin52.tsp";
-//        TSP_Parser parserTest = new TSP_Parser(problemPath);
+        String problemPath = "source/berlin52.tsp";
+        TSP_Parser parserTest = new TSP_Parser(problemPath);
 
         String testString = "ABC: DEF";
         System.out.println(testString.split(":")[1]);
